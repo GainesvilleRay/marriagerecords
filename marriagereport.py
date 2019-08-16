@@ -1,3 +1,15 @@
+"""
+To create weekly marriage report for Gainesville Sun.
+On a monthly basis:
+1. Create PDF of prior month's marriages at
+http://isol.alachuaclerk.org/RealEstate/SearchEntry.aspx?e=newSession
+2. Download PDF to working folder and convert to csv with pdf_to_csv.py
+3. Run this script on that csv file.
+
+
+"""
+
+
 # standard libraries
 import csv
 import os

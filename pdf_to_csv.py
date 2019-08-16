@@ -1,7 +1,7 @@
 
 
 import pdftables_api
-import creds
+#import creds
 
 # convert pdf downloaded from county clerk site into csv
 infile = 'Real Estate Search Results.pdf'
